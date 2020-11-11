@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Montserrat&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+body {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    color: #667484;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    width: 80%;
+    margin: 0 auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: white;
+}
+
+.logo-wrapper {
+    max-width:180px;
+    padding: 0 20px;
+    
+}
+
+.logo-wrapper img {
+    width: 70%;
+}
+
+nav ul {
+    display:flex;
+    margin:0;
+}
+
+nav ul li {
+    list-style: none;
+    margin:0 12px;
+    padding: 25px 0;
+    border-top: 5px solid transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4e52;
+}
+
+.current {
+    border-top: 5px solid #44A9F9;
+}
+
+.profile {
+    background: #44A9F9;
+    border-radius: 50%;
+    padding: 8px 11px;
+    max-height: 24px;
+    position: relative;
+    top: 15px;
+    left:-9px;
+    box-shadow: 1px 1px 5px 0px #44A9F9;
+}
+
+.profile a {
+    color: white;
+}
+
+.certificates-info {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)), url(./images/hero-certificates.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    padding: 15% 12% 5% 12%;
+    position: relative;
+    top: -77px;
+    z-index: -1;
+    align-items: flex-end;
+}
+
+.certificates-info-content div {
+    background: #29394B;
+    border-radius: 8px;
+    padding:20px;
+    margin-right: 50px;
+    color: white;
+}
+
+.certificates-info-image {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.certificates-info-content > p {
+    font-style: italic;
+    position:absolute;
+}
+
+.certificates-info-content h3 {
+    margin-top:0;
+}
+
+.certificates-info-image-blue {
+    margin-right: 5px;
+}
+
+.diploma {
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.diploma-content {
+    padding: 20px;
+    background: #F4F5F7;
+    border-radius: 6px;
+}
+
+.diploma h3 {
+    text-align: center;
+    color: #445162;
+    font-size: 27px;
+}
+
+.apply {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.4)), url(./images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 80%;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75); 
+    margin-top: 7%;
+}
+
+.apply p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 27px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-light {
+    background: white;
+    color: #44A9F9;
+    border: 1px solid white;
+    margin-right: 30px;
+}
+
+/*.btn-light::after {
+    content: '|';
+    color: white;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    left: 50px;
+}*/
+
+.separator {
+    display: inline-block;
+    height: 37px;
+    width: 2px;
+    position: relative;
+    background: white;
+    left: -13px;
+    top: 12px;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.apply h3 {
+    font-size: 24px;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-top: 1px solid  #455262;
+width: 80%;
+box-sizing: border-box;
+margin: 30px auto 0 auto;
+padding: 20px 0;
+}
+
+.logo-and-copyright-wrapper {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+footer .logo-wrapper {
+    max-width: 150px;
+    padding: 18px;
+}
+footer .logo-wrapper img {
+    width: 100%;
+}
+
+.footer-links ul {
+    display: flex;
+    margin: 0;
+}
+
+footer li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #455262;
+}
+
+footer li i {
+    color: #455262;
+}
+
+.copyright {
+    color: lightgray;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
