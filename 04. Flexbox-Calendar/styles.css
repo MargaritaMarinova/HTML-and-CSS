@@ -1,0 +1,51 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 70px;
+}
+
+.container, .week, .notes, .days, .offdays {
+    display: flex;
+}
+
+.container {
+    align-items: center;
+    border: 1px solid black;
+    max-width: 65vw;
+}
+
+.week, .notes {
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.week {
+    flex-grow: 1.5;
+}
+
+.notes {
+    flex-grow: 1;
+}
+
+.notes span {
+    padding-bottom: 130px;
+}
+.days {
+    box-sizing: border-box;
+}
+
+.days span, .offdays span {
+    padding-bottom: 70px;
+    flex-grow: 1;
+}
+
+.offdays {
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+span {
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
