@@ -1,14 +1,12 @@
 body {
     background: #eee;
-    max-width: 70%;
-    margin: auto;
 }
 
 .gallery {
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-basis: 60%;
+    width: 70%;
+    margin: 50px auto;
 }
 
 article {
@@ -16,10 +14,14 @@ article {
     border: 6px solid black;
     padding: 10px;
     flex-basis:23%;
-    margin: 10px 0;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    box-shadow: inset 8px -1px 50px -16px rgba(0,0,0,0.66);
 }
 
-img {
-    max-width: 100%;
+article img {
+    width: 100%;
     height: auto;
+    align-items: center;
 }
