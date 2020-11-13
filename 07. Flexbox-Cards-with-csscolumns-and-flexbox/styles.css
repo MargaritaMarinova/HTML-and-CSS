@@ -1,0 +1,63 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: rgb(238, 238, 238);
+    margin: 0;
+}
+
+.cards-layout, .layout-flex {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.masonry {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 24%;
+    margin: 20px;
+}
+
+.masonry article {
+    margin-bottom: 40px;
+}
+
+
+
+article {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: -1px -1px 7px -1px rgba(0,0,0,0.42);
+}
+
+article h2, article p {
+    padding:0 10px;
+
+}
+
+article img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+}
+
+.layout-flex {
+    flex-wrap: wrap;
+}
+
+.layout-flex article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 24%;
+    margin: 20px;
+}
+
+.layout-flex p {
+    flex-grow: 1;
+
+}
