@@ -1,1 +1,97 @@
-/*TODO:*/
+@media all and (max-width: 1028px) {
+    #main {
+        display: block;
+    }
+
+    aside {
+        width: 82%;
+        margin: 0 auto;
+        padding: 2rem;
+        
+    }
+
+    aside img {
+        float: left;
+        width: 230px;
+        height: 220px;
+        border-radius: 50%;
+        margin: 0 40px;
+        background-color: #FCFCFC;
+        margin-top: 33px;
+        box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.36);
+    }
+
+    #personal-info {
+        background-color: #FCFCFC;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #work, #education {
+        margin: 1rem 0;
+    }
+
+   #work, #education {
+       padding: 14px 33px;
+   }
+
+}   
+
+@media all and (max-width: 768px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    aside img {
+        display: block;
+        border-radius: 0;
+        box-shadow: none;
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    main {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    #personal-info {
+        background-color: #FCFCFC;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .school div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .uni-img-container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    .school div img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #education {
+        margin-bottom: 3rem;
+    }
+
+    .school:last-child {
+        margin-bottom: 3rem;
+    }
+
+    #work, #education {
+        margin: 1rem 0;
+    }
+}
