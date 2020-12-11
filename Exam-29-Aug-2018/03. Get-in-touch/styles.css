@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px/1.5 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(131, 107, 209, 0.8), rgba(131, 107, 209, 0.8)), url('./images/bg-01.jpg') no-repeat center center;
+    }
+
+
+
+.container {
+    background: white;
+    width: 65%;
+    margin: 5rem auto;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+}
+
+.container section {
+    width: 40%;
+}
+
+input, textarea {
+    background: #E6E6E6;
+    border: none;
+    border-radius: 22px;
+    outline: none;
+    font: 16px/1.5 'Montserrat', sans-serif;
+    width: 90%;
+    padding: .5rem 0.5rem 0.5rem 2.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    color: #AAA;
+}
+
+textarea {
+    padding: .5rem 0.5rem 0.5rem 1.2rem;
+}
+
+.form p {
+    position: relative;
+}
+
+.form p:before {
+    display: block;
+    position: absolute;
+    font-family: "Font Awesome\ 5 Free";
+    top: 7px;
+    left: 14px;
+    z-index: 200;
+    font-weight: 900;
+    color:#AAAAAA;
+    
+}
+.last-name:before,
+.first-name:before {
+    content: '\f007';
+}
+
+.ucl:before {
+    content: '\f02d';
+}
+
+.email:before{
+    content:'\f0e0';
+}
+
+input[type="submit"] {
+    padding: .5rem 0;
+    background: #846ADD;
+    color: white;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: #333;
+}
+
+.form p:focus-within:before {
+    color: #846ADD;
+}
