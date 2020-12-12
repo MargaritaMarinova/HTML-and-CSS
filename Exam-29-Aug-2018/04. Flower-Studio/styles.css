@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 16px/1.5 'PT Sans', sans-serif;
+}
+
+header {
+  background: #fafafa;
+}
+
+header nav {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem 1rem 1rem 0;
+  display: block;
+}
+
+.selected a{
+    color: red;
+}
+
+.selected a i {
+    margin-left: 2px;
+}
+
+header ul:nth-child(2) li {
+    border-right: 1px solid black;
+    
+}
+
+header ul:nth-child(2) li a {
+    padding: 0 0.5rem;
+}
+
+.main-img {
+    background: url('./img/residential-banner-2.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0 5rem 0;
+}
+
+.main-img h1 {
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.main-img h1 span {
+    display: block;
+}
+
+.main-img p:nth-child(2) {
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 1.3rem;
+    font-size: 20px;
+}
+
+.main-img p:nth-child(3) {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.how-works {
+    padding: 2rem 0;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #5A5A5A;
+}
+
+.how-works h3 {
+    padding-bottom: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Ariel', sans-serif;
+}
+
+.how-works ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-works ul li {
+    width: 30%;
+}
+
+.how-works .number {
+    font-size: 28px;
+}
+
+.how-works h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.how-works .number:before,
+.how-works .number:after {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: darkgray;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.images {
+    background: #EDEDED;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.images img {
+    width: 20%;
+    margin: .2rem;
+}
+
+footer {
+    background: black;
+    color: grey;
+    
+}
+
+.footer-container {
+    
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: 0 14rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-container section{
+    width: 35%;
+}
+
+.footer-container section:nth-child(1) {
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 3rem;
+   
+}
+
+.footer-container section:nth-child(1) ul {
+    width: 33%;
+    text-align: center;
+}
+
+footer section:nth-child(1) ul  li{
+    padding-bottom: 0.3rem;
+}
+
+.footer-container section:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container section:nth-child(3) button{
+    background: #FA5B3C;
+    color: white;
+    width: 40%;
+    padding: .5rem 0;
+    margin-top: .5rem;
+}
+
+.footer-container section:nth-child(3) input{
+    
+    width: 80%;
+    padding: .5rem 0;
+    margin-top: .5rem;
+}
+
+.footer-container section:nth-child(2) {
+    width: 20%;
+    
+}
+
+footer>p {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
