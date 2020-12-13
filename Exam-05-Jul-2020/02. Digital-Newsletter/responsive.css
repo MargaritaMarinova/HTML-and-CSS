@@ -10,4 +10,12 @@
     .newsletter-bottom-content {
         text-align: left;
     }
+
+    .newsletter-bottom h4 {
+        text-align: left;
+    }
+
+    .bottom-logo {
+        width: 15%;
+    }
 }
