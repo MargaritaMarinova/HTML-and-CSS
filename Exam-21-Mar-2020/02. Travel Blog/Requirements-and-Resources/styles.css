@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    font-family: 'Gelasio', sans-serif;
+}
+
+header {
+    background: url('./images/map.jpg') no-repeat center top;
+    background-size: cover;
+    color: white;
+    padding: 0 7rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 114%;
+    margin-left: -81px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 10px;
+    color: #707373;
+}
+ li {
+     list-style: none;
+ }
+
+header nav img {
+    max-width: 50px;
+    height: 50px;
+}
+
+.container {
+    width: 81%;
+    margin: 7rem auto 0 auto;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 61px;
+    margin: 0;
+    text-shadow: 2px 2px #535252dc;
+}
+
+.container button {
+    background: #146594;
+    border-radius: 3px;
+    color: white;
+    padding: .5rem;
+    border: none;
+    text-align: center;
+    width: 11%;
+    margin: 1rem auto;
+}
+
+main {
+    background: #E1E1E1;
+    color: white;
+    padding-bottom: 2rem;
+    margin-top: 0;
+}
+
+main h1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;    
+}
+
+.first-image {
+    width: 40%;
+    max-height: 600px;
+}
+
+
+
+.other-images {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.second-image, .third-image {
+height: 300px;
+    
+}
+
+.first-image {
+    background: url('./images/packing.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.first-image h5 {
+    text-align: center;
+}
+
+.second-image {
+    background: url('./images/planning.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.second-image h5 {
+    margin-top: .2rem;
+    text-align: center;
+}
+
+
+
+.third-image {
+    background: url('./images/budget.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.third-image h5 {
+    padding: 12rem 0 0 2rem;
+}
+
+main h1 {
+    color: #5F6467;
+    padding: 1rem 0;
+}
+
+h5 {
+    font-size: 24px;
+    text-shadow: 2px 1px #535252dc;
+}
+
+footer {
+    background: #8C8C8C;
+    padding: 1.2rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    color: #B2B2B2;
+}
+
+.footer-container ul {
+        display: flex;
+}
+
+.footer-container ul li {
+    border-right: 1px solid #B2B2B2;
+    padding-right: 5px;
+    margin-right: 5px;
+
+}
+
+.footer-container ul li:last-child {
+    border-right: none;
+}
