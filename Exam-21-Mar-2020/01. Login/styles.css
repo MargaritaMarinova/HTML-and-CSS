@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(27, 27, 27, 0.8), rgba(27, 27, 27, 0.8)), url('./image.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 27%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.content-wrapper {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper p {
+border-bottom: 1px solid lightgray;
+}
+
+.content-wrapper input {
+    border: none;
+    padding: .5rem 2rem;
+    font-size: 17px;
+}
+
+.content-wrapper p i {
+    padding-left: 1.5rem;
+    color: darkgray;
+}
+
+button {
+    border: none;
+    background: #D41872;
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: .5rem 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    margin: .3rem auto;
+}
