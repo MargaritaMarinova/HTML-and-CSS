@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600&display=swap");
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gelasio", sans-serif;
+}
+
+.first {
+  background: url("./Media/craving.jpg") no-repeat center center;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.first h2 {
+  text-align: center;
+  width: 50%;
+  margin: 2rem auto;
+  color: white;
+  padding-top: 3rem;
+}
+
+.input {
+  width: 20%;
+  margin: 0 auto;
+  background: white;
+  opacity: 0.6;
+  border: none;
+  border-radius: 2px;
+}
+
+li {
+  list-style: none;
+}
+
+.media {
+  width: 60%;
+}
+
+.content {
+  background: #e6e3de;
+  width: 43%;
+  padding: 3rem 0rem 0 2rem;
+}
+
+.first-ul,
+.second-ul {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.first-ul ul,
+.second-ul ul {
+  display: flex;
+  height: 400px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.first-ul img,
+.second-ul img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.main-container {
+  background: url("./Media/background.jpg") no-repeat center center;
+  padding-top: 2rem;
+}
+
+.third {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.third ul {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.third ul li {
+  width: 20%;
+}
+
+.image-container {
+  height: 120px;
+  width: 160px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.third h3 {
+  text-align: center;
+  width: 20%;
+  margin: 2rem auto;
+  background: white;
+  opacity: 0.7;
+}
+
+.third p {
+  background: white;
+  opacity: 0.7;
+  text-align: center;
+  width: 160px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-top: -5px;
+}
+
+.third button {
+  background: #dc4f36;
+  border: none;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 14%;
+  padding: 10px;
+  color: white;
+}
+
+.second h3 {
+  font-size: 24px;
+}
+
+.second button {
+  background: #554938;
+  color: white;
+}
+
+.input i {
+  color: darkgrey;
+  padding: 0.4rem;
+}
