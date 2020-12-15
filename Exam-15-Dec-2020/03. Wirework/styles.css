@@ -1,0 +1,208 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+header {
+  background: white;
+  padding: 10px 10px 0 10px;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0;
+}
+
+nav ul:nth-child(1) li:nth-child(1) {
+  font-size: 30px;
+  font-weight: 600;
+  padding-right: 15px;
+  border-right: 1px solid grey;
+  color: #2C383B;
+}
+
+nav ul:nth-child(1) li:nth-child(2) {
+  font-size: 13px;
+  padding-left: 18px;
+  padding-top: 25px;
+}
+
+.menu li {
+  background: #ececec;
+  padding: 13px;
+  margin-right: 2px;
+  color: #2C383B;
+  letter-spacing: 1.5px;
+}
+
+.menu li:nth-child(1) {
+  color: white;
+  background: #e24e2a;
+}
+
+.first {
+  height: 24rem;
+  background: url("./images/banner.jpg") no-repeat center center;
+  padding: 20px 50px;
+  background-size: cover;
+}
+
+.second {
+  background: #e24e2a;
+  height: 11rem;
+  color: white;
+  text-align: center;
+  padding: 3rem 14rem 0;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.second a {
+    color: white;
+}
+
+.second p {
+    line-height: 1.5;
+    margin-top: 2rem;
+    
+}
+
+.third {
+    height: 26rem;
+    background: #383838;
+}
+
+.third ul, .five ul {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ECECEC;
+    text-align: center;
+}
+
+.third ul li {
+    width: 24%;
+}
+
+.third ul li p, .five ul li p {
+    border-top: 1px solid #686764;
+    padding-top: 2rem;
+    color: #686764;
+}
+
+.third ul li i {
+    background: #e24e2a;
+    width: 65px;
+    height: 65px;
+    padding: 13px 14px 0;
+    font-size: 50px;
+}
+
+.third > ul > li:nth-child(2) > i {
+    padding: 13px 16px 0 12px;
+}
+
+.third ul li:nth-child(1) i { /*Това го правя, тъй като на скрийншота от заданието първият елемент li е леко изместен надолу*/
+    margin-bottom: 15px;
+}
+
+.four {
+    background: white;
+    height: 20rem;
+}
+
+.content-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 3rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content-wrapper h3 {
+    font-size: 32px;
+    margin-bottom: 0;
+    color: #585858;
+    font-weight: 300;
+}
+
+.content-wrapper p {
+    color: #A9A5A6;
+    margin-top: .5rem;
+}
+
+.content-wrapper button {
+    color: white;
+    width: 30%;
+    margin: 1rem auto;
+    background: #1B9772;
+    border: none;
+    padding: 1rem 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+
+.five {
+    height: 22rem;
+    background: #383838;
+}
+
+.five ul {
+    padding-top: 3rem;
+}
+
+.five ul li {
+    width: 30%;
+}
+
+.five ul li h4 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.five ul li p {
+    border-top: none;
+}
+
+footer {
+    height: 7rem;
+    background: #1B9772;
+    padding: 3rem;
+}
+
+footer ul {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #95C9B2;
+    padding-top: 3rem;
+}
+
+footer ul li:nth-child(3) {
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    padding:0 10px;
+}
